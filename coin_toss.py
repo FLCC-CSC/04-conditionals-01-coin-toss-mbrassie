@@ -10,6 +10,21 @@
 
 
 
+import random
+
+
+print ("===== Coin Flipper =====")
+
+
+result = random.randint(1,100)
+
+if result > 50:
+    print("Tails")
+
+else:
+    print("Heads")
+
+
 
 
 
